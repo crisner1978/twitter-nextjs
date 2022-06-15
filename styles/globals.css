@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .tweetIcons {
+        @apply flex cursor-pointer items-center space-x-3 text-gray-400
+    }
+}
